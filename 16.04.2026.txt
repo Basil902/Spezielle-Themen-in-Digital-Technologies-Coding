@@ -1,0 +1,15 @@
+Databse config und Tabelle erstellen. In .env DB File hinzufügen:
+
+DATABASE_FILE_NAME=llm_usage.db
+
+Spalten in der Tabelle:
+- model
+- createdAt
+- token_usage
+
+danach Die DB File und die Tabelle erstellen.
+
+
+Die Daten aus der Datenbank im Frontend anzeigen mithilfe von streamlit. Prompt dafür:
+
+Ich möchte diese Tabelle in einer Screenlit mit Überschrift und dann die Tabelle anzeigen lassen bitte ohne pandas
