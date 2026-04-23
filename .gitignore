@@ -6,3 +6,4 @@ Scripts/
 share/
 pyvenv.cfg
 .env
+16.04.2026/llm_usage.db

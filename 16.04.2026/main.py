@@ -4,7 +4,7 @@ import os
 
 load_dotenv()
 
-conn = sqlite3.connect(os.getenv("DATABASE_FILE_NAME"))
+conn = sqlite3.connect(os.getenv("DATABASE_FILE_PATH"))
 cursor = conn.cursor()
 
 cursor.execute("""

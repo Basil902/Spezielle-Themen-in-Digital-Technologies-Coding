@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-db_file = os.getenv("DATABASE_FILE_NAME")
+db_file = os.getenv("DATABASE_FILE_PATH")
 
 st.title("📊 LLM Token Usage")
 

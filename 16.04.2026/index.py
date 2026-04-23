@@ -14,6 +14,7 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
 )
 
+### das Beispiel für Chat Completions
 # Messages-Liste aufbauen
 # jede Antwort von der KI muss in der Liste hinzugefügt werden mit der role assistant, damit das LLM den Kontext kennt
 # messages = [
@@ -22,6 +23,7 @@ client = OpenAI(
 #     {"role": "assistant", "content": "Etwa 1,07 Millionen Menschen leben in Köln - das macht sie zum viertgrößten und zweitökonomisch bedeutendsten Bundesland in Westfalen‑Rhein. Der exakte Einwohnerstand ändert sich ständig, daher gebe ich gern die aktuelle Zahl per 31. Dezember 2023 an: **1.068 481**."}
 # ]
 
+### Beispiel für Responses
 messages = [
     {
         'role': 'system',
